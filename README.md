@@ -1,0 +1,2 @@
+# soloplant
+Self sustaining plant.
