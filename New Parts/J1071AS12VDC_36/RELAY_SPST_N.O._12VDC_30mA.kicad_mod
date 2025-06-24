@@ -1,0 +1,182 @@
+(footprint "RELAY_SPST_N.O._12VDC_30mA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "K"
+		(at 0.02 -9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72b24d6d-31cc-4672-b0e0-10d13718e923")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "J1071AS12VDC.36"
+		(at 0.09 1.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "42b6a8df-435e-4638-9b8e-c3f672a5210c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.citrelay.com/view_relay.php?series=J107"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21df119c-6537-42b4-abbb-f85c2226e564")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "190d993e-920e-495a-92d9-153d77d000ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.69 -7.9)
+		(end 9.71 7.92)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "200293bd-a01d-4f82-810c-b0e3689adcc5")
+	)
+	(fp_line
+		(start -9.9 -8.1)
+		(end -9.9 8.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9796b9b-6811-4b78-9e74-0a44a5339f8f")
+	)
+	(fp_line
+		(start -9.9 8.1)
+		(end 9.9 8.09)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "373ad3f5-6ff1-4ffd-895b-f31649111298")
+	)
+	(fp_line
+		(start 9.9 8.09)
+		(end 9.91 -8.11)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "db1ebcb5-ea32-46d8-8fc7-30760e567e91")
+	)
+	(fp_line
+		(start 9.91 -8.11)
+		(end -9.9 -8.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c5171f7-85f5-439a-abb6-e642907db02e")
+	)
+	(fp_rect
+		(start -9.5 -7.7)
+		(end 9.5 7.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c93698a5-e620-4ae2-8635-d27034409067")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.02 -0.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9515d228-fa96-4e74-90aa-99dd8d9e4092")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -6.1 -6)
+		(size 1.905 1.905)
+		(drill 1.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f5ed9106-1200-45c4-a659-82659a6466a4")
+	)
+	(pad "1" thru_hole circle
+		(at 6.1 -6)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85496f6e-29c7-486f-8e72-ae1836f8f584")
+	)
+	(pad "2" thru_hole circle
+		(at 6.1 6)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b082790f-b2cb-41ce-9e11-8213c07ecd97")
+	)
+	(pad "3" thru_hole circle
+		(at 8.1 0)
+		(size 2.1 2.1)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "657d6c57-9f7a-475e-aea4-76310ef97c79")
+	)
+	(pad "4" thru_hole circle
+		(at -6.1 6)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c892028d-4dfa-4e4e-b4c3-3b15eb18afe8")
+	)
+	(embedded_fonts no)
+	(model "D:/1 Embedded Systems/soloplant/New Parts/J1071AS12VDC_36/J1071A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
